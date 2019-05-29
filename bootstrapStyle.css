@@ -1,0 +1,53 @@
+
+/* NAVBAR ITEMS */
+
+.navbar{
+  height: 150px;
+  padding-top: 100px;
+}
+
+
+.navbar-brand{
+  font-size: 24pt;
+}
+
+/* DOC BODY ITEMS */
+
+.subHeader{
+  height: 100px;
+  padding-top:60px;
+  font-size: 20pt;
+}
+
+.row{
+  background-color: orange;
+  border: solid black;
+  border-width: 1px;
+}
+
+.col{
+  border:solid black;
+  border-width: 1px;
+  height: 100px;
+}
+
+.mainBody{
+  height: 300px;
+  border:solid black;
+  border-width: 1px;
+}
+
+/* BIO CONTROLS */
+.col-bio{
+  height: 400px;
+}
+/*FORM CONTROLS*/
+
+.col-form{
+  padding-top: 10px;
+  height: 70px;
+}
+.col-message{
+  height:150px;
+  padding-top: 10px;
+}
