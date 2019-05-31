@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrapStyle.css">
 
-    <title>Andres Aguaiza</title>
+    <title>Bootstrap Sandbox</title>
   </head>
   <body>
 
@@ -50,8 +50,6 @@
 </nav>
 </div>
 
-<br>
-
 <!-- Body stuff -->
 <div class="container">
   <div class="row">
@@ -61,21 +59,26 @@
   </div>
   <form>
   <div class="row">
-    <div class="col col-form">
+    <div class="col col-form col-first-row">
       <input type="text" class="form-control" placeholder="First name">
     </div>
-    <div class="col col-form">
+    <div class="col col-form col-first-row">
       <input type="text" class="form-control" placeholder="Last name">
     </div>
   </div>
   <div class="row">
-    <div class="col col-form">
+    <div class="col col-form col-second-row">
       <input type="text" class="form-control" placeholder="example@email.com">
     </div>
   </div>
   <div class="row">
   <div class="col col-message">
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter message here"rows="6"></textarea>
+</div>
+</div>
+<div class="row">
+  <div class="col col-form col-first-row">
+   <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </div>
 </form>

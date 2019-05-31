@@ -1,0 +1,10 @@
+.container{
+  background-color: black;
+}
+
+.myPic{
+  width: 30%;
+  height: 380px;
+  margin-right: 20px;
+  float:left;
+}
