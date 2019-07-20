@@ -1,3 +1,12 @@
 # bootstrapSandbox
-testing out creating sites with Bootstrap by creating a mock Bio site
+## Bootstrap Bio
 
+https://andresagu.github.io/bootstrapSandbox/
+
+Testing bootstrap functionality by creating a personal site 
+
+## Functionality
+Giphy search with preselected searches. Returns 10 gifs per query (button).
+
+### note:
+Used for general AJAX testing
